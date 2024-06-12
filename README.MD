@@ -21,3 +21,6 @@ npm install
 ```
 node index.js
 ```
+
+<h2>This should only be done on a system with a US or European IP
+You can do this by tunneling to a server from America and connecting it to a proxy </h2>
