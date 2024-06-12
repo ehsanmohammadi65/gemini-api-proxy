@@ -1,0 +1,17 @@
+{
+  "name": "gemini-api-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xyxyxyxy16@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
