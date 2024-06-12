@@ -4,7 +4,7 @@ const { SocksProxyAgent } = require("socks-proxy-agent");
 const proxy = "socks://127.0.0.1:2080";
 const agent = new SocksProxyAgent(proxy);
 //gemini Api
-const token = "AIzaSyBDIUkG2wSJDU01eqHV36UGIDCZrp7h_XA";
+const token = "xxxx";
 
 //API URL
 const apiUrl =
