@@ -1,10 +1,12 @@
 const axios = require("axios");
 const { SocksProxyAgent } = require("socks-proxy-agent");
+require("dotenv").config();
+
 //proxy address if socks5 replace socks5
 const proxy = "socks://127.0.0.1:2080";
 const agent = new SocksProxyAgent(proxy);
 //gemini Api
-const token = "xxxx";
+const token = process.env.TOKEN_API;
 
 //API URL
 const apiUrl =
